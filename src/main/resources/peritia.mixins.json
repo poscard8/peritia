@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "github.poscard8.peritia.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "peritia.mixins.refmap.json",
+  "mixins": [
+    "accessor.FurnaceResultSlotAccessor",
+    "accessor.RandomizableContainerBlockEntityAccessor",
+    "AbstractMinecartContainerMixin",
+    "EnchantmentMenuMixin",
+    "ItemStackMixin",
+    "RandomizableContainerBlockEntityMixin",
+    "ServerPlayerMixin",
+    "StyleMixin"
+  ],
+  "client": [
+    "client.accessor.GuiAccessor",
+    "client.accessor.MouseHandlerInvoker",
+    "client.ScreenMixin"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "xp_gain": {
+    "sounds": [
+      "peritia:xp_gain"
+    ]
+  },
+  "level_up": {
+    "sounds": [
+      "random/levelup"
+    ]
+  },
+  "notify": {
+    "sounds": [
+      "peritia:notify"
+    ]
+  }
+}
