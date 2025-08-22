@@ -158,7 +158,7 @@ public class CommonEvents
                 else PeritiaNetworkHandler.sendToClient(new LookContextPacket(), player);
             }
 
-            if (ticks % 100 == 0) player.inventoryMenu.sendAllDataToRemote();
+            if (ticks % 100 == 0 && !player.containerMenu.stillValid(player)) player.inventoryMenu.sendAllDataToRemote();
         });
     }
 

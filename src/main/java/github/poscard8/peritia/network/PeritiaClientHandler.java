@@ -291,7 +291,7 @@ public class PeritiaClientHandler implements ClientHandler
         if (soundConfig && showedText.get() && playSound)
         {
             Random random = new Random();
-            float volume = random.nextFloat(0.5F, 0.75F);
+            float volume = random.nextFloat(0.5F, 0.65F);
             float pitch = random.nextFloat(0.8F, 1.25F);
 
             playLocalSound(PeritiaSoundEvents.XP_GAIN, volume, pitch);
@@ -325,8 +325,8 @@ public class PeritiaClientHandler implements ClientHandler
         if (soundConfig)
         {
             Random random = new Random();
-            float volume = random.nextFloat(0.8F, 1.25F);
-            float pitch = random.nextFloat(0.667F, 1);
+            float volume = random.nextFloat(0.8F, 1.1F);
+            float pitch = random.nextFloat(0.8F, 1);
 
             playLocalSound(PeritiaSoundEvents.LEVEL_UP, volume, pitch);
         }
